@@ -14,14 +14,21 @@
   </head>
   <body>
     <div id="messageDiv">
-      Hello
+      <h2>
+        start
+      </h2>
       <html></html>
     </div>
+    
 
-    <script>
-      const messageDiv = document.getElementById("messageDiv");
-      messageDiv.innerHTML = "Hello javeScript";
-      console.log(messageDiv);
+    <script >
+      setTimeout(function () {let messageDiv = document.getElementById("messageDiv");
+      messageDiv.innerHTML = "finish";
+        
+      },  4000)
+
+  
+      //console.log(messageDiv);
     </script>
   </body>
 </html>
