@@ -8,15 +8,15 @@
     <link rel="stylesheet" href="https://unpkg.com/mvp.css@1.12/mvp.css" />
 </head>
 <body>
-    <p>Number 1:<input type="text" id="number1Field" value="2"></p>
-    <p>Number 2:<input type="text" id="number2Field" value="3"></p>
+    <p>Number 1:<input type="number" id="number1Field" value="2"></p>
+    <p>Number 2:<input type="number" id="number2Field" value="3"></p>
    
-    <button id="onAddBtnClicked" onclick="">Add</button>
-    <button id="onSubtractBtnClicked">Subtract</button>
-    <button id="onMultiplyBtnClicked">Multiply</button>
-    <button id="onDividBtnClicked">Divide</button>
+    <button id="addBtn" onclick="onAddBtnClicked()">Add</button>
+    <button id="subtractBtn" onclick="onSubtractClicked()">Subtract</button>
+    <button id="onMultiplyBtnClicked" onclick="onMultiplyClicked()">Multiply</button>
+    <button id="onDividBtnClicked" onclick="onDivideBtnClicked()">Divide</button>
     
-    <p>Answer: <input type="text" id="answeField" value="5"></p>
+    <p>Answer: <input type="text" id="answerField" ></p>
 
     <script src="scripts/calculator.js"></script>
 </body>
